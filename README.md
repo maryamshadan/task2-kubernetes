@@ -1,6 +1,7 @@
 Project task2-rest-api
 
 docker build -t task2-rest-api:local .
+docker build -t task2-rest-api:local .
 This project targets Java 17.
 
 Local setup

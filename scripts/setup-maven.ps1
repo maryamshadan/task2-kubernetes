@@ -6,7 +6,6 @@ param(
 )
 
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Definition
-$installDir = Join-Path $scriptDir '..\.maven' | Resolve-Path -Relative
 $installFull = Join-Path $scriptDir '..' -ChildPath '.maven' | Resolve-Path -LiteralPath | ForEach-Object { $_.ProviderPath }
 
 # Create directory

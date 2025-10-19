@@ -1,4 +1,4 @@
-package com.task2;
+﻿package com.task2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
